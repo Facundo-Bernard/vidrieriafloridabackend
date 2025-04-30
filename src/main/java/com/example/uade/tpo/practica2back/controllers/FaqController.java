@@ -20,7 +20,7 @@ import com.example.uade.tpo.practica2back.entity.Faq;
 
 @RestController
 @RequestMapping("/api/faq")
-@CrossOrigin(origins = {"http://localhost:5174", "http://localhost:5173"})
+@CrossOrigin(origins = {"http://localhost:5174", "http://localhost:5173" ,"https://vidrieriaeditorfront.vercel.app","*"})
 public class FaqController {
 
     private final FaqService faqService;
