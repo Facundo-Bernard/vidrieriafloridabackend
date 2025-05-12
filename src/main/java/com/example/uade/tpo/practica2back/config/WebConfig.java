@@ -19,7 +19,7 @@ public class WebConfig {
                 .allowedOrigins("https://vidrieriaflorida-front-u98r.vercel.app",
                 "https://vidrieriaeditorfront.vercel.app",
                 "https://vidrieriaflorida.com",
-                "https://www.vidrieriaflorida.com")
+                "https://www.vidrieriaflorida.com","*")
                     .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                     .allowedHeaders("*")
                     .allowCredentials(true);
