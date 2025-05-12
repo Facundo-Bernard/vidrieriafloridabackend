@@ -21,7 +21,7 @@ import com.example.uade.tpo.practica2back.entity.Presentacion;
 @CrossOrigin(origins =  {"https://vidrieriaflorida-front-u98r.vercel.app",
                 "https://vidrieriaeditorfront.vercel.app",
                 "https://vidrieriaflorida.com",
-                "https://www.vidrieriaflorida.com","*"})
+                "https://www.vidrieriaflorida.com"})
 public class PresentacionController {
 
     @Autowired

@@ -23,7 +23,7 @@ import com.example.uade.tpo.practica2back.entity.Faq;
 @CrossOrigin(origins = {"http://localhost:5174", "http://localhost:5173" ,"https://vidrieriaeditorfront.vercel.app","https://vidrieriaflorida-front-u98r.vercel.app",
                 "https://vidrieriaeditorfront.vercel.app",
                 "https://vidrieriaflorida.com",
-                "https://www.vidrieriaflorida.com","*"})
+                "https://www.vidrieriaflorida.com"})
 public class FaqController {
 
     private final FaqService faqService;
