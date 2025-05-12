@@ -16,7 +16,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                    .allowedOrigins("https://vidrieriaflorida-front-u98r.vercel.app","https://vidrieriaeditorfront.vercel.app") // tu frontend de Vercel
+                    .allowedOrigins("https://vidrieriaflorida-front-u98r.vercel.app","https://vidrieriaeditorfront.vercel.app","https://www.vidrieriaflorida.com") // tu frontend de Vercel
                     .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                     .allowedHeaders("*")
                     .allowCredentials(true);
