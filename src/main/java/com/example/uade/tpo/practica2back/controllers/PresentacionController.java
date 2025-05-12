@@ -18,7 +18,10 @@ import com.example.uade.tpo.practica2back.entity.Presentacion;
 
 @RestController
 @RequestMapping("/api/presentacion")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins =  {"https://vidrieriaflorida-front-u98r.vercel.app",
+                "https://vidrieriaeditorfront.vercel.app",
+                "https://vidrieriaflorida.com",
+                "https://www.vidrieriaflorida.com","*"})
 public class PresentacionController {
 
     @Autowired

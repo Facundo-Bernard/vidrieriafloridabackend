@@ -19,7 +19,10 @@ import com.example.uade.tpo.practica2back.entity.Product;
 
 @RestController
 @RequestMapping("/product")
-@CrossOrigin(origins = {"http://localhost:5174", "http://localhost:5173"})
+@CrossOrigin(origins = {"http://localhost:5174", "http://localhost:5173", "https://vidrieriaflorida-front-u98r.vercel.app",
+                "https://vidrieriaeditorfront.vercel.app",
+                "https://vidrieriaflorida.com",
+                "https://www.vidrieriaflorida.com"})
 
 public class ProductController {
     
